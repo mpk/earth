@@ -1,0 +1,71 @@
+[{
+
+	"id": "Nepal_2015",
+	"description": "Nepal earthquake 2015",
+	"timeRange": {
+		"start": 1422748800000,
+		"end": 1446335999000
+	},
+	"cameraPosition": {
+		"lat": 28.147,
+		"lon": 84.708
+	},
+	"cameraDistance": 1.5
+
+}, {
+
+	"id": "Iceland_2014",
+	"description": "Bárðarbunga eruption 2014-15",
+	"timeRange": {
+		"start": 1404172800000,
+		"end": 1430438399000
+	},
+	"cameraPosition": {
+		"lat": 64.85,
+		"lon": -16.83
+	},
+	"cameraDistance": 1.25
+
+}, {
+
+	"id": "Indonesia_2012",
+	"description": "Aceh, Indonesia earthquake 2012",
+	"timeRange": {
+		"start": 1325376000000,
+		"end": 1349049599000
+	},
+	"cameraPosition": {
+		"lat": 2.311,
+		"lon": 93.063
+	},
+	"cameraDistance": 1.75
+
+}, {
+
+	"id": "Japan_2011",
+	"description": "Tōhoku, Japan earthquake 2011",
+	"timeRange": {
+		"start": 1293840000000,
+		"end": 1325375999000
+	},
+	"cameraPosition": {
+		"lat": 38.222,
+		"lon": 142.369
+	},
+	"cameraDistance": 1.75
+
+}, {
+
+	"id": "Chile_2010",
+	"description": "Chile earthquake 2010",
+	"timeRange": {
+		"start": 1262304000000,
+		"end": 1293839999000
+	},
+	"cameraPosition": {
+		"lat": -35.909,
+		"lon": -72.733
+	},
+	"cameraDistance": 1.75
+
+}]

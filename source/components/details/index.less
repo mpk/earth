@@ -1,0 +1,20 @@
+.details {
+	background-color: @backColor;
+	height: ~"calc(90% - 140px)";
+	left: 2%;
+	position: absolute;
+	top: 5%;
+	width: 320px;
+
+	&__header {
+		.header();
+		line-height: 48px;
+	}
+
+	&__footer {
+		background-color: @backColorLo;
+		height: 38px;
+		line-height: 38px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,12 @@
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/javascript
+
+AddEncoding gzip .gz
+
+RewriteEngine on
+
+RewriteCond %{HTTP:Accept-Encoding} gzip
+RewriteCond %{REQUEST_FILENAME}\.gz -s
+RewriteRule ^(.*)\.json $1\.json\.gz [QSA]
+RewriteRule \.json\.gz$ - [T=application/json,E=no-gzip:1]

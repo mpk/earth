@@ -1,0 +1,27 @@
+.container {
+	&__data-loader {
+		background-color: @backColor;
+		border-radius: 12px;
+		bottom: 180px;
+		left: 50%;
+		line-height: 32px;
+		padding: 16px 24px;
+		position: absolute;
+		transform: translateX(-50%);
+
+		.loader {
+			display: inline-block;
+			margin-right: 16px;
+			vertical-align: middle;
+		}
+	}
+
+
+	&__events-button {
+		.button();
+		bottom: 160px;
+		padding: 9px 20px;
+		position: absolute;
+		right: 32px;
+	}
+}

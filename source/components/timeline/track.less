@@ -1,0 +1,75 @@
+.timeline-track {
+	height: 48px;
+	margin: 0 5%;
+	position: absolute;
+	top: 36px;
+	width: 90%;
+
+	&__slot {
+		background-color: @backColorHi;
+		height: 8px;
+		margin: 20px 0;
+	}
+
+	&__label-tick {
+		background-color: @backColor;
+		height: 8px;
+		position: absolute;
+		width: 2px;
+	}
+
+	&__label-text {
+		.disable-user-select();
+		color: @textColorLo;
+		margin-top: 15px;
+		position: relative;
+	}
+
+	&__range {
+		background-color: @accentColor;
+		height: 8px;
+		position: absolute;
+	}
+
+	&__frame-time {
+		background-color: @colorEm;
+		height: 16px;
+		margin-left: -2px;
+		position: absolute;
+		top: -4px;
+		width: 4px;
+	}
+
+	&__handle-left, &__handle-right {
+		background-color: @accentColorHi;
+		height: 24px;
+		position: absolute;
+		top: -8px;
+		width: 7px;
+	}
+
+	&__handle-left {
+		left: -7px;
+
+		.timeline-track__handle-area {
+			left: -32px;
+			right: -32px;
+		}
+	}
+
+	&__handle-right {
+		right: -7px;
+
+		.timeline-track__handle-area {
+			left: -32px;
+			right: -32px;
+		}
+	}
+
+	&__handle-area {
+		cursor: ew-resize;
+		height: 48px;
+		position: absolute;
+		top: -12px;
+	}
+}

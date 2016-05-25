@@ -1,0 +1,41 @@
+/**
+ *	Bootstrap
+ */
+@import (inline) 'node_modules/normalize.css/normalize.css';
+@import 'utils/components.less';
+@import 'components/**/*.less';
+
+html, body {
+	background-color: @backColor;
+	color: @textColor;
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../static/fonts/open-sans.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'NovecentoWide';
+	src: url('../static/fonts/novecento-wide.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@accentColor: #2fcdaa;
+@accentColorHi: #40f7d1;
+@backColor: #222932;
+@backColorHi: #47505d;
+@backColorLo: #151b21;
+@backColorInv: #ccc;
+@backColorInvHi: #eee;
+@colorEm: #db3c3c;
+@textColor: #fff;
+@textColorLo: #cbced5;
+@textColorLo2: #8d949e;
+@textColorInv: #000;

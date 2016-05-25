@@ -1,0 +1,35 @@
+.container-footer {
+	.clear-fix();
+	background-color: @backColorLo;
+	bottom: 0;
+	font-size: 13px;
+	left: 0;
+	line-height: 30px;
+	position: absolute;
+	width: 100%;
+
+	&__about {
+		float: left;
+		margin: 0 32px;
+	}
+
+	&__sources {
+		float: right;
+		margin: 0 32px;
+	}
+
+	&__header {
+		color: @textColorLo;
+		margin: 0 6px;
+	}
+
+	&__link {
+		color: @textColorLo2;
+		margin: 0 6px;
+		text-decoration: none;
+
+		&:hover, &:active {
+			text-decoration: underline;
+		}
+	}
+}

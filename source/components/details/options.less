@@ -1,0 +1,29 @@
+.details-options {
+	.disable-user-select();
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+
+	&__option {
+		color: @textColorLo;
+		cursor: pointer;
+		display: inline-block;
+		padding: 0 14px;
+
+		&:hover {
+			background-color: @backColorHi;
+		}
+
+		&_selected {
+			background-color: @backColorHi;
+			color: @textColor;
+		}
+	}
+
+	&__option-icon {
+		fill: @textColor;
+		height: 16px;
+		margin-right: 8px;
+		width: 10px;
+	}
+}

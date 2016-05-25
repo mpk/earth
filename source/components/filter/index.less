@@ -1,0 +1,49 @@
+.filter {
+	.disable-user-select();
+	background-color: @backColor;
+	padding: 20px 16px;
+	position: absolute;
+	right: 0;
+	top: 5%;
+
+	&__header {
+		.header();
+		margin-bottom: 10px;
+	}
+
+	&__value {
+		color: @textColorLo;
+		cursor: pointer;
+		line-height: 16px;
+		padding: 8px 12px;
+		text-align: center;
+
+		&:hover {
+			background-color: @backColorHi;
+		}
+
+		&_selected {
+			color: @textColor;
+
+			&:hover {
+				background-color: @backColorHi;
+			}
+		}
+	}
+
+	&__value-icon {
+		background-color: @backColorHi;
+		border-radius: 100%;
+		display: inline-block;
+		height: 16px;
+		margin-right: 8px;
+		vertical-align: middle;
+		width: 16px;
+	}
+
+	&__value-icon-tick {
+		fill: none;
+		stroke: @backColor;
+		stroke-width: 2;
+	}
+}

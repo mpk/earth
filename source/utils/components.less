@@ -1,0 +1,41 @@
+/**
+ *	Component mixins
+ */
+.header() {
+	.disable-user-select();
+	font-family: 'NovecentoWide';
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.disable-user-select() {
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.clear-fix() {
+	&:before, &:after {
+		content: '';
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+.button() {
+	background-color: @backColorHi;
+	border-radius: 24px;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 0.025em;
+
+	&:hover {
+		background-color: @accentColor;
+	}
+}
